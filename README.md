@@ -104,7 +104,6 @@ Expected output:
 
 ```text
 /home/<your-user>/bin/cpp_cargo
-
 ```
 ## Safety
 
