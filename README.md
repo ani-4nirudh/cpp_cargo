@@ -37,6 +37,28 @@ make clean    # Remove compiler-generated artifacts
 - A C++ compiler, such as GCC or Clang
 - Make or Ninja
 
+## Usage
+
+Move to the directory where you want a new project:
+
+```bash
+cd ~/coding/cpp
+```
+
+Create a project:
+
+```bash
+cpp_cargo my_project
+```
+
+Then build it:
+
+```bash
+cd my_project
+make build
+make run
+```
+
 ## Installation
 
 Clone the repository wherever you would like to keep it:
@@ -82,30 +104,8 @@ Expected output:
 
 ```text
 /home/<your-user>/bin/cpp_cargo
+
 ```
-
-## Usage
-
-Move to the directory where you want a new project:
-
-```bash
-cd ~/coding/cpp
-```
-
-Create a project:
-
-```bash
-cpp_cargo my_project
-```
-
-Then build it:
-
-```bash
-cd my_project
-make build
-make run
-```
-
 ## Safety
 
 The tool refuses to create a project if the target path already exists. It never uses `rm -rf` and does not overwrite an existing project directory.
