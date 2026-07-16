@@ -3,7 +3,7 @@
 set -eou pipefail
 
 # TODO: Change this location if the repo download path is different
-TEMPLATE_DIR="${HOME}/coding/cpp_scaffolding/files"
+TEMPLATE_DIR="${HOME}/coding/cpp_cargo/files"
 BASE_DIR="$(pwd)"
 
 # Define colors

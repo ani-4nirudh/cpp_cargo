@@ -64,22 +64,22 @@ make run
 Clone the repository wherever you would like to keep it:
 
 ```bash
-git clone <repository-url> ~/coding/cpp_scaffolding
+git clone <repository-url> ~/coding/cpp_cargo
 ```
-> **Note:** The script expects the repository at `~/coding/cpp_scaffolding`.
+> **Note:** The script expects the repository at `~/coding/cpp_cargo`.
 > If you clone it elsewhere, update `TEMPLATE_DIR` in `cpp_cargo.sh`.
 
 Make the script executable:
 
 ```bash
-chmod +x ~/coding/cpp_scaffolding/cpp_cargo
+chmod +x ~/coding/cpp_cargo/cpp_cargo
 ```
 
 Create a personal executable directory and add a symbolic link:
 
 ```bash
 mkdir -p ~/bin
-ln -s ~/coding/cpp_scaffolding/cpp_cargo ~/bin/cpp_cargo
+ln -s ~/coding/cpp_cargio/cpp_cargo.sh ~/bin/cpp_cargo
 ```
 
 Ensure `~/bin` is in your `PATH`. Add the following to `~/.bashrc`:
